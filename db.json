@@ -1,0 +1,79 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Marta",
+      "lastName": "Ramos",
+      "typeDocument": "dni",
+      "documentNumber": "40234560",
+      "typeClient": "titular",
+      "services": [
+        {"id": "int_mov", "option": "Internet Movil"},
+        {"id": "mov", "option": "Telefonía movil"},
+        {"id": "tv", "option": "Televisión por cable"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Raul",
+      "lastName": "Campos",
+      "typeDocument": "psp",
+      "documentNumber": "705696A",
+      "typeClient": "titular",
+      "services": [
+        {"id": "int_mov", "option": "Internet Movil"},
+        {"id": "mov", "option": "Telefonía movil"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Milagros",
+      "lastName": "Perez",
+      "typeDocument": "dni",
+      "documentNumber": "01306593",
+      "typeClient": "titular",
+      "services": [
+        {"id": "int_mov", "option": "Internet Movil"},
+        {"id": "mov", "option": "Telefonía Movil"},
+        {"id": "tv", "option": "Televisión por cable"},
+        {"id":  "int_h", "option":  "Internet Hogar"},
+        {"id":  "tel_h", "option":  "Telefonía Hogar"}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pepito",
+      "lastName": "Gomez",
+      "typeDocument": "ruc",
+      "documentNumber": "10402345606",
+      "typeClient": "legal",
+      "services": [
+        {"id": "mov", "option": "Telefonía movil"},
+        {"id": "tv", "option": "Televisión por cable"},
+        {"id": "c_fija", "option": "Conectividad Fija"},
+        {"id": "cloud", "option": "Servicios Cloud"}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Mario",
+      "lastName": "Gomez",
+      "typeDocument": "client_code",
+      "documentNumber": "1040234",
+      "typeClient": "user",
+      "services": [
+        {"id": "tv", "option": "Televisión por cable"},
+        {"id": "tel_h", "option":  "Telefonía Hogar"},
+        {"id": "int_h", "option":  "Internet Hogar"},
+        {"id": "tel_public", "option":  "Telefonía Pública"},
+        {"id": "c_fija", "option": "Conectividad Fija"},
+        {"id": "app_mov", "option": "Aplicaciones de Negocio Móvil"},
+        {"id": "ginfra_ti", "option": "Gestión Infraestructura TI"},
+        {"id": "gtraf_red", "option": "Gestión de tráfico de red"},
+        {"id": "sec", "option": "Seguridad"},
+        {"id": "com", "option": "Comunicación y Colaboración"},
+        {"id": "cloud", "option": "Servicios Cloud"}
+      ]
+    }
+  ]
+}
